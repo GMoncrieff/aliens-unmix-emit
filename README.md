@@ -3,7 +3,7 @@ Unmixing alien vegetation in fynbos using EMIT surface reflectance
 
 __under constuction__
 
-This code performs spectral unmixing on imaging spectroscopy surface relfectance data from the [Earth Surface Mineral Dust Source Investigation (EMIT) mission](https://earth.jpl.nasa.gov/emit/). Currently, EMIT data need to be downloaded locally beforehand from [LP DAAC](https://search.earthdata.nasa.gov/search?q=emit). Unmixing is performed using the [SpectralUnmixing](https://github.com/emit-sds/SpectralUnmixing) Julia package provided by the EMIT science team, hence this code requires both Julia==1.6.5 and Python>3,8
+This code performs spectral unmixing on imaging spectroscopy surface relfectance data from the [Earth Surface Mineral Dust Source Investigation (EMIT) mission](https://earth.jpl.nasa.gov/emit/). Currently, EMIT data need to be downloaded locally beforehand from [LP DAAC](https://search.earthdata.nasa.gov/search?q=emit). Unmixing is performed using the [SpectralUnmixing](https://github.com/emit-sds/SpectralUnmixing) Julia package provided by the EMIT science team, hence this code requires both Julia==1.6.5 and Python>=3.8
 
 The example provided in this repo attempts to unmix water, bareground/rock, native vegetation and invasive Pine trees endmembers in the southwestern Cape of South Africa
 
